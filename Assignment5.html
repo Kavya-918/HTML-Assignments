@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5</title>
+</head>
+
+<body bgcolor="lavender">
+    <h4>5.Create employee registration webpage using HTML form objects</h4>
+    <hr>
+    <center>
+        <h2>Employee Registration Form</h2>
+    </center>
+    <marquee>Please Enter Correct Details...If You have any doubts regarding this form contacts us through email
+        abc12@gmail.com</marquee>
+    <br>
+    <hr>
+    <form>
+        <h3>Personal Information</h3>
+        First name: <input type="text" name="Fname" placeholder="first name">
+        Last name: <input type="text" name="Lname" placeholder="last name">
+        Middle name: <input type="text" name="Mname" placeholder="middle name"><br><br>
+        Email:<input type="email" name="email" placeholder="Email"><br><br>
+        Gender:
+        <select gender="Male">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
+        </select><br>
+        <p>Address</p>
+        <textarea name="address" name="Address" placeholder="Enter Your address"></textarea>
+        <br><br>
+        Phone:
+        <input type="number" name="Mobile" placeholder="Enter with Country code">
+        <hr>
+        <h3>Employess Details</h3>
+        Role:<br>
+        developer:<input type="radio" name="Position">
+        frontend:<input type="radio" name="Position">
+        Backend:<input type="radio" name="Position">
+        <br><br>
+        upload cv:<input type="file" name="cv">
+        <hr>
+        Terms&Conditions
+        <input type="checkbox" name="conditions" placeholder="Terms&condition"><br>
+        <br>
+
+        Submit:<input type="submit" name="submit">
+        Reset:<input type="reset" name="reset">
+
+    </form>
+</body>
+
+</html>
